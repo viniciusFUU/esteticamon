@@ -1,0 +1,37 @@
+nav{
+    background-color: rgb(0, 138, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.navbar-container{
+    display: flex;
+}
+
+.navbar-container a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: aqua;
+}
+
+.navbar-container a:hover{
+    background-color: aqua;
+    transition: .5s;
+    color: rgb(0, 138, 212);
+    border-radius: 5px;
+}
+
+.navbar-container ul{
+    list-style: none;
+    
+}
+
+.navbar-container #clinica{
+    display: flex;
+    align-self: flex-start;
+}
