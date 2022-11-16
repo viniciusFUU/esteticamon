@@ -14,7 +14,7 @@ export default props => {
                         <li><a href="/agendados">Agendados</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#/Cadastro">Horários disponiveis</a></li>
+                        <li><a href="/horarios">Horários disponiveis</a></li>
                     </ul>                    
                 </div>
             </div>

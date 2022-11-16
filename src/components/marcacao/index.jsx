@@ -12,7 +12,9 @@ export default props => {
             <input type="date" />
 
             <label>Hora</label>
-            <input type="time" />
+            <input type="time" id="txtHora" name="hora" />
+
+            <button type="submit">Agendar</button>
         </div>
     )
 }

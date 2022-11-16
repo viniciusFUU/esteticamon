@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../header";
+import './styles.css'
 
 export default props => {
     return (
         <>
-        <div>
+        <div className="container">
             <Header/>
-            <h1>Putaria louca</h1>
+            <p>Putaria louca</p>
         </div>
         </>
     )
