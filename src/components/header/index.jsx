@@ -6,12 +6,12 @@ export default props => {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="header">
-                    <a className="item" href="#" id="clinica">Marcação</a>
+                    <a className="item" href="/" id="clinica">Marcação</a>
                 </div>
 
                 <div className="navbar-container">
                     <ul>
-                        <li><a href="#/Products">Agendados</a></li>
+                        <li><a href="/agendados">Agendados</a></li>
                     </ul>
                     <ul>
                         <li><a href="#/Cadastro">Horários disponiveis</a></li>
