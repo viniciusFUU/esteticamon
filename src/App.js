@@ -6,12 +6,7 @@ import Agendados from './components/agendados/index'
 import Horarios from './components/horarios/index'
 
 const App = () => {
-    // const data = localStorage.getItem("transaction")
-    // const [transactionList, setTransactionList] = useState(data ? JSON.parse(data) : [])
-
-    // useEffect(() => {
-
-    // }, [transactionList])
+    
 
     return(
         <div>

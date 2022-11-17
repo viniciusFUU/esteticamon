@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../header";
+import App from '../../App'
 import './styles.css'
 
 export default props => {
@@ -7,7 +8,7 @@ export default props => {
         <>
         <div className="container">
             <Header/>
-            <p>Putaria louca</p>
+            
         </div>
         </>
     )
